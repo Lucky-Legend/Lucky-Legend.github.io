@@ -52,4 +52,7 @@ article {
 .icons {
     display: flex;
     justify-content: space-evenly;
+    flex: content;
+    padding: 2rem;
 }
+
