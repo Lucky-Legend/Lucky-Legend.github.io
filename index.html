@@ -6,22 +6,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       <link rel="stylesheet" type="text/css" href="styles.css">
       <script src="https://kit.fontawesome.com/633b8fbaef.js" crossorigin="anonymous"></script>
+      <script defer src="script.js"></script>
    </head>
    <body>
       <main>
          <header>
-            <section id="head-bg">
+            <section id="head-bg" class="conceal">
                <div class="icon-text">
                   <i class="fa fa-code fa-2xl"></i>
-                  <h1>
+                  <h1 class="underline">
                      <b>TIMOTHY NICOLAS</b>
                   </h1>
                </div>
-               <p>Portfolio of my projects, displaying my capabilities in the world of coding.</p>
+               <p class="conceal">Portfolio of my projects, displaying my capabilities in the world of coding.</p>
             </section>
-            <img id="rocket" src="LaunchCode_rocketline_white_edit.png" alt="LaunchCode_rocketline_white">
+            <nav>
+               <a href="#menu" id="rocket">
+                     <img id="rocket-img" class="enlarge" src="..\images\LaunchCode_rocketline_white_edit.png" alt="LaunchCode_rocketline_white">
+               </a>
+            </nav>
+            
          </header>
-         <h2 style="text-align:center;">SKILLS</h2>
+         <h2 class="underline conceal" style="margin-left: 5rem;">SKILLS</h2>
          <section class="row">
             <div class="icons">
                <i class="fa fa-html5 fa-2xl"></i>
@@ -31,14 +37,21 @@
                <i class="fa fa-git fa-2xl"></i>
             </div>
          </section>
+         <article class="conceal">
+            <h2 class="underline">MY STORY</h2>
+            <p>Just here to build a better life for everyone around me.</p>
+         </article>
+         <section id="projects">
+
+         </section>
+         <section id="work-history">
+
+         </section>
+      
       </main>
-      <article>
-         <h2>MY STORY</h2>
-         <p>Just here to build a better life for everyone around me.</p>
-      </article>
    </body>
    <footer>
-      <section class="row">
+      <section id="contact-info">
          <div class="icons">
            <div class="icon-text">
              <i class="fa fa-home fa-2xl"></i>
@@ -51,19 +64,19 @@
          </div>
          <div class="icons">
            <a href="mailto:TimNicolas87@gmail.com">
-             <div class="icon-text">
+             <div class="icon-text enlarge">
                <i class="fa fa-envelope fa-2xl" style="color: white;"></i>
                <h2>Email</h2>
              </div>
            </a>
            <a href="https://www.linkedin.com/in/timothy-nicolas/">
-             <div class="icon-text">
+             <div class="icon-text enlarge">
                <i class="fa-brands fa-linkedin fa-2xl" style="color: white;"></i>
                <h2>LinkedIn</h2>
              </div>
            </a>
            <a href="https://github.com/Lucky-Legend">
-             <div class="icon-text">
+             <div class="icon-text enlarge">
                <i class="fa fa-github fa-2xl" style="color: white;"></i>
                <h2>GitHub</h2>
              </div>
