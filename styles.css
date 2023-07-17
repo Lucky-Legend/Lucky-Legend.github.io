@@ -5,16 +5,12 @@ body {
     margin: 0;
 }
 
-.underline {
-    padding: 10px;
-    border-bottom: 3px solid #304880;
-    width: max-content;
-}
-
 #head-bg {
     padding: 3rem 5rem 3rem 5rem;
     color: white;
     border-bottom: 3px solid #304880;
+    background-size: cover;
+    background-image: url("../images/Head-bg.png");
 }
 
 #rocket {
@@ -30,8 +26,16 @@ body {
     width: 100px;
 }
 
-article {
-    margin: 5rem;
+
+.underline {
+    
+    border-bottom: 3px solid #304880;
+    width: max-content;
+}
+
+.underline-all {
+    border-bottom: 3px solid #304880;
+    
 }
 
 .title {
@@ -43,15 +47,15 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    margin: 5rem;
 }
-
 
 .project-left {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: row-reverse;
+    margin: 5rem;
 }
 
 .resize {
@@ -59,9 +63,8 @@ article {
     width: 250px;
     border-radius: 10px;
     margin: 10px;
-
+    border: 3px solid #304880;
 }
-
 
 .row {
     position: relative;
@@ -121,7 +124,7 @@ article {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(200px);
-    transition: all 3s;
+    transition: all 1s;
 }
 
 .reveal {
