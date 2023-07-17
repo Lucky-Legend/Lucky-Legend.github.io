@@ -31,8 +31,37 @@ body {
 }
 
 article {
-    padding: 5rem;
+    margin: 5rem;
 }
+
+.title {
+    margin-left: 5rem;
+    
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+.project-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.resize {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
 
 .row {
     position: relative;
@@ -107,13 +136,13 @@ article {
       opacity: 1;
     }
     100% {
-      transform: translateY(-500px);
+      transform: translateY(-150px);
       opacity: 0;
     }
   }
   
   .blastoff {
-    animation: blastoffAnimation 3s forwards;
+    animation: blastoffAnimation 2s forwards;
     transition: all 5s;
   }
 

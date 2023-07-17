@@ -9,25 +9,28 @@
       <script defer src="script.js"></script>
    </head>
    <body>
+      <header>
+         <section id="head-bg" class="conceal">
+            <div class="icon-text">
+               <i class="fa fa-code fa-2xl"></i>
+               <h1 class="underline">
+                  <b>TIMOTHY NICOLAS</b>
+               </h1>
+            </div>
+            <p>Portfolio of my projects, displaying my capabilities in the world of coding.</p>
+            <h6>--This whole portfolio webpage was made from from scratch with no libraries.--</h6>
+         </section>
+         <nav>
+            <a href="#menu" id="rocket">
+               <img id="rocket-img" class="enlarge" src="..\images\LaunchCode_rocketline_white_edit.png" alt="LaunchCode_rocketline_white">
+            </a>
+         </nav>
+         
+      </header>
       <main>
-         <header>
-            <section id="head-bg" class="conceal">
-               <div class="icon-text">
-                  <i class="fa fa-code fa-2xl"></i>
-                  <h1 class="underline">
-                     <b>TIMOTHY NICOLAS</b>
-                  </h1>
-               </div>
-               <p class="conceal">Portfolio of my projects, displaying my capabilities in the world of coding.</p>
-            </section>
-            <nav>
-               <a href="#menu" id="rocket">
-                     <img id="rocket-img" class="enlarge" src="..\images\LaunchCode_rocketline_white_edit.png" alt="LaunchCode_rocketline_white">
-               </a>
-            </nav>
-            
-         </header>
-         <h2 class="underline conceal" style="margin-left: 5rem;">SKILLS</h2>
+         <h2 id="skills" class="underline conceal" style="margin-left: 5rem;">
+            SKILLS
+         </h2>
          <section class="row">
             <div class="icons">
                <i class="fa fa-html5 fa-2xl"></i>
@@ -41,47 +44,79 @@
             <h2 class="underline">MY STORY</h2>
             <p>Just here to build a better life for everyone around me.</p>
          </article>
+
+
          <section id="projects">
-
+            <div class="conceal title">
+               <h2 class="underline">My Projects</h2>
+               <p>Here I have a few projects written using the React framework. They are </p>
+            </div>
+            <article class="project">
+               <div class="conceal">
+                  <h3 class="underline">Pomodoro Clock</h3>
+                  <p>Here is a 25 + 5 clock I built with React.js for my freeCodeCamp project.</p>
+               </div>
+               <div class="img-right enlarge">
+                  <a href="https://codepen.io/LuckyLegend/pen/jOvwNbq">
+                     <img class="resize" src="..\images\Pomodoro.png" alt="Pomodoro Clock">
+                  </a>
+               </div>
+            </article>
+            <article class="project-left">
+               <div class="conceal">
+                  <h3 class="underline">calculator</h3>
+                  <p>Here is a Calculator I built with React.js for my freeCodeCamp project.</p>
+               </div>
+               <div class="enlarge">
+                  <a href="https://codepen.io/LuckyLegend/pen/jdyqvNVv">
+                     <img class="resize" src="..\images\Calculator.png" alt="Pomodoro Clock">
+                  </a>
+               </div>
+            </article>
          </section>
-         <section id="work-history">
 
-         </section>
+
+         <article id="work-history">
+            <h2 class="underline"> Work History</h2>
+         </article>
       
       </main>
+         <footer>
+            <div class="title">
+               <h2 class="underline">Contact Info</h2>
+            </div>
+            <section id="contact-info">
+               <div class="icons">
+                 <div class="icon-text">
+                   <i class="fa fa-home fa-2xl"></i>
+                   <h2> Saint Louis, MO</h2>
+                 </div>
+                 <div class="icon-text">
+                   <i class="fa fa-phone fa-2xl"></i>
+                   <h2>(314) 319-5674</h2>
+                 </div>
+               </div>
+               <div class="icons">
+                 <a href="mailto:TimNicolas87@gmail.com">
+                   <div class="icon-text enlarge">
+                     <i class="fa fa-envelope fa-2xl" style="color: white;"></i>
+                     <h2>Email</h2>
+                   </div>
+                 </a>
+                 <a href="https://www.linkedin.com/in/timothy-nicolas/">
+                   <div class="icon-text enlarge">
+                     <i class="fa-brands fa-linkedin fa-2xl" style="color: white;"></i>
+                     <h2>LinkedIn</h2>
+                   </div>
+                 </a>
+                 <a href="https://github.com/Lucky-Legend">
+                   <div class="icon-text enlarge">
+                     <i class="fa fa-github fa-2xl" style="color: white;"></i>
+                     <h2>GitHub</h2>
+                   </div>
+                 </a>
+               </div>
+             </section>
+         </footer>
    </body>
-   <footer>
-      <section id="contact-info">
-         <div class="icons">
-           <div class="icon-text">
-             <i class="fa fa-home fa-2xl"></i>
-             <h2> Saint Louis, MO</h2>
-           </div>
-           <div class="icon-text">
-             <i class="fa fa-phone fa-2xl"></i>
-             <h2>(314) 319-5674</h2>
-           </div>
-         </div>
-         <div class="icons">
-           <a href="mailto:TimNicolas87@gmail.com">
-             <div class="icon-text enlarge">
-               <i class="fa fa-envelope fa-2xl" style="color: white;"></i>
-               <h2>Email</h2>
-             </div>
-           </a>
-           <a href="https://www.linkedin.com/in/timothy-nicolas/">
-             <div class="icon-text enlarge">
-               <i class="fa-brands fa-linkedin fa-2xl" style="color: white;"></i>
-               <h2>LinkedIn</h2>
-             </div>
-           </a>
-           <a href="https://github.com/Lucky-Legend">
-             <div class="icon-text enlarge">
-               <i class="fa fa-github fa-2xl" style="color: white;"></i>
-               <h2>GitHub</h2>
-             </div>
-           </a>
-         </div>
-       </section>
-   </footer>
 </html>
