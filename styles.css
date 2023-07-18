@@ -1,6 +1,4 @@
 body {
-    margin: 8px;
-    display: block;
     font-family: Verdana, sans-serif;
     background-color: #0c152b;
     color: white;
@@ -13,6 +11,7 @@ body {
     border-bottom: 3px solid #304880;
     background-size: cover;
     background-image: url("../images/Head-bg.png");
+    overflow: hidden;
 }
 
 #rocket {
@@ -28,21 +27,17 @@ body {
     width: 100px;
 }
 
-
-.underline {
-    
+.underline {    
     border-bottom: 3px solid #304880;
     width: max-content;
 }
 
 .underline-all {
-    border-bottom: 3px solid #304880;
-    
+    border-bottom: 3px solid #304880;    
 }
 
 .title {
-    margin-left: 5rem;
-    
+    margin-left: 5rem;    
 }
 
 .project {
@@ -125,7 +120,7 @@ body {
 .conceal {
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(200px);
+    transform: translateX(100px);
     transition: all 1s;
 }
 
@@ -163,11 +158,6 @@ body {
     border-top: 3px solid #304880 ;
 }
 
-
-#mainHeading {
-    color: red;
-}
-
-.funParagraph {
-    color: green;
+.overflow {
+    overflow: hidden;
 }
